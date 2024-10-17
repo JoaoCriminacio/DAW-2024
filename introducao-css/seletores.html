@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- No head eu escrevo instruções para o navegador -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores, Propriedades e Valores</title>
+
+    <style>
+
+        p {
+            color: red;
+        }
+
+        #titulo {
+            color: green;
+            background-color: yellow;
+        }
+
+        .destaque {
+            color: blue;
+        }
+
+        .fundo-preto {
+            background-color: #000000;
+        }
+
+        input[type="text"] {
+            border: 1px solid red;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h3>Tipos de Seletores</h3>
+
+    <h4>Seletor Por TAG</h4>
+    <p>Resultado do seletor por TAG</p>
+
+    <h4>Seletor por Identificação</h4>
+    <p id="titulo">Resultado do seletor por Identificação</p>
+
+    <h4>Seletor por Classe</h4>
+    <p class="destaque fundo-preto">Resultado do seletor por Classe</p>
+
+    <h4>Seletor por Atributos</h4>
+    <input type="text" placeholder="Campo de Texto">
+    <input type="password" placeholder="Campo de Senha">
+
+</body>
+</html>
