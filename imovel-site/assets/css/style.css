@@ -1,0 +1,110 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+header {
+    /* cima, direita, baixo, esquerda */
+    padding: 1.25rem 1.25rem 0 1.25rem;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+
+    /* alinha horizontalmente com espaço entre eles */
+    justify-content: space-between; 
+
+    /* alinha ao centro verticalmente */
+    align-items: center; 
+}
+
+header .brand {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+header .brand img {
+    width: 2.5rem;
+}
+
+header .brand h1 {
+    font-size: 1.5rem;
+    color: #01528a;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+header nav {
+    
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+header nav li {
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+header nav a:hover,
+header nav a.active {
+    color: #0889d4;
+}
+
+header nav a.active {
+    font-weight: 500;
+    border-bottom: 2px solid #0889d4;
+}
+
+header nav button {
+    background-color: #0889d4;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.875rem;
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+}
+
+main {
+
+}
+
+#banner {
+    height: 550px;
+    border: 1px solid #dcdceb;
+    background-color: #ffffff;
+    border-radius: 0.625rem;
+    color: #01528a;
+    background-image: url(../img/background-house.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#banner .banner-content {
+    width: 650px;
+    height: 100%;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0), #ffffff 50%);
+}
+
+#banner h3 {
+    margin: 0;
+}
