@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -40,9 +45,7 @@ header .brand h1 {
     line-height: 2rem;
 }
 
-header nav {
-    
-}
+header nav {}
 
 header nav ul {
     display: flex;
@@ -84,9 +87,7 @@ header nav button {
     margin-left: 1rem;
 }
 
-main {
-
-}
+main {}
 
 #banner {
     height: 550px;
@@ -107,4 +108,116 @@ main {
 
 #banner h3 {
     margin: 0;
+}
+
+#banner .banner-body1 {
+    padding: 3.75rem 0 0 2.8rem;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+#banner .banner-body2 {
+    margin-top: 1rem;
+    margin-left: 2.8rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+section {
+    margin-top: 4rem;
+}
+
+section h2 {
+    padding: 2rem 0;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #01528a;
+    margin: 2rem 0;
+}
+
+#cards {}
+
+#cards .cards-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#cards .card {
+    width: 530px;
+    display: flex;
+    gap: 1rem;
+    box-shadow: rgb(0 0 0 / 20%) 0 2px 1px -1px, rgb(0 0 0 /14%) 0 1px 1px 0, rgb(0 0 0 /12%) 0 1px 3px 0;
+    border-radius: 0.6rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    position: relative;
+}
+
+#cards .card img {
+    width: 160px;
+    height: 180px;
+}
+
+#cards .card h4 {
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+
+#cards .card p {
+    font-weight: 300;
+    text-align: justify;
+    color: #8f90a6;
+    max-height: 4.5rem;
+    overflow: hidden;
+    margin-bottom: 1.3rem;
+}
+
+#cards .card-price {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+#cards .card-price p {
+    background-color: #0889d4;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+#reasons {}
+
+#reasons .reasons-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#reasons .reasons-content .reason {
+    border-left: 2px solid #0889d4;
+    width: 100%;
+}
+
+#reasons .reason:first-of-type {
+    border-left: none;
+}
+
+#reasons .reason p {
+    text-align: center;
+}
+
+#reasons .reason-value {
+    font-size: 2rem;
+    
+}
+
+#reasons .reason-label {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #8f90a6;
 }
